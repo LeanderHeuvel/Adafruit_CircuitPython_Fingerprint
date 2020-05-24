@@ -14,7 +14,7 @@ Introduction
     :target: https://github.com/adafruit/Adafruit_CircuitPython_Fingerprint/actions/
     :alt: Build Status
 
-This library will let you use an Adafruit Fingerprint sensor on any UART to get, store, retreive and query fingerprints! Great for adding bio-sensing security to your next build.
+This library is a fork of the original Adafruit fingerprint library. This library adds support for the GROW R503. For more information about this sensor, visit the `website <http://www.zjgrow.com/grow-r503-new-circular-round-two-color-ring-indicator-led-control-dc33v-mx10-6pin-capacitive-fingerprint-module-sensor-scanner-p2112363.html>`_
 
 Dependencies
 =============
