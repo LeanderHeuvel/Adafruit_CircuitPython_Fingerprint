@@ -74,6 +74,7 @@ _VERIFYPASSWORD = const(0x13)
 _TEMPLATECOUNT = const(0x1D)
 _TEMPLATEREAD = const(0x1F)
 _GETECHO = const(0x53)
+_AURALEDCONFIG = const(0x35)
 
 # Packet error code
 OK = const(0x0)
@@ -171,6 +172,11 @@ class Adafruit_Fingerprint:
         self._send_packet([_IMAGE2TZ, slot])
         return self._get_packet(12)[0]
 
+    def set_circular_light(self, control_code = 0x05, speed = 0x09, color = 0x01 , times = 0x00):
+        """Set the circular light to preferred settings. By default the light will be turned on red."""
+        self._send_packet([_AURALEDCONFIG,control_code,speed,color,times])
+        return self._get_packet(12)[0]
+        
     def create_model(self):
         """Requests the sensor take the template data and turn it into a model
         returns the packet error code or OK success"""
