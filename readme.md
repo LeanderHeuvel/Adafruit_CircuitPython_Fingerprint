@@ -17,6 +17,8 @@ This is easily achieved by downloading
 
  - This library at the moment does not support checksum. Right now the checksum is ignored. Af future release should solve this issue.
  -  UPDATE see latest release ~~The R503 sensor has a circular light around the sensor, support for controlling the light is missing~~
+ - Update the example folder with appropriate examples
+ - Update documentation in readme
 
 
 ## Usage Example
