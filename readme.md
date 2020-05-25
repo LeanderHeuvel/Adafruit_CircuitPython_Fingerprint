@@ -1,7 +1,7 @@
 
 # Introduction
 
-This fork implements the GROW R503 fingerprint sensor. 
+This fork of the Adafruit Circuit python library adds support for the Grow R503 fingerprint sensor.
 
 ## Dependencies
 
