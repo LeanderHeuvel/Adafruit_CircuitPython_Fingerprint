@@ -28,8 +28,8 @@ This is easily achieved by downloading
 
 TODO
 =============
-This library at the moment does not support checksum. Right now the checksum is ignored. Af future release should solve this issue.
-
+- This library at the moment does not support checksum. Right now the checksum is ignored. Af future release should solve this issue.
+- The R503 has custom features such as a LED circular light. Native support would be nice. 
 
 Usage Example
 =============
